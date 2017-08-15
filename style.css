@@ -1,0 +1,53 @@
+body {
+  background: no-repeat center linear-gradient(to bottom right, #ffffff 0%, #0066cc 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: center;
+  display: inline-block;
+  padding: 20px;
+  background: linear-gradient(to bottom, #333300 0%, #ffffcc 100%);
+  width: 32.7%;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #111;
+}
+
+.firstsection {
+
+}
+
+.profilepicture img {
+  width: 100%;
+}
+
+.intropage {
+  text-align: center;
+}
+
+.secondsection h3 {
+  text-align: center;
+}
+
+.middleportion {
+  position: relative;
+}
