@@ -6,48 +6,31 @@ body {
   background-size: cover;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  float: center;
-  display: inline-block;
-  padding: 20px;
-  background: linear-gradient(to bottom, #333300 0%, #ffffcc 100%);
-  width: 32.7%;
-}
-
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #111;
-}
-
 .firstsection {
 
 }
 
 .profilepicture img {
+  position: relative;
   width: 100%;
 }
 
 .intropage {
+  position: relative;
   text-align: center;
-}
-
-.secondsection h3 {
-  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  
 }
 
 .middleportion {
   position: relative;
+  text-align: center;
+}
+
+@media only screen and (min-width: 748px) {
+  .intropage {
+    width: 100%;
+    
+  }
 }
