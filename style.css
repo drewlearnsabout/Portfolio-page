@@ -6,8 +6,12 @@ body {
   background-size: cover;
 }
 
-.firstsection {
-
+.topportion {
+   background: linear-gradient(to bottom, #ffff99 0%, #ccccff 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .profilepicture img {
@@ -19,18 +23,16 @@ body {
   position: relative;
   text-align: center;
   width: 100%;
-  border: 1px solid black;
-  
+  }
+
+.intropage h1 {
+  font-family: 'Crimson Text', serif;
+}
+.intropage h6 {
+  font-family: 'Crimson Text', serif;
 }
 
 .middleportion {
   position: relative;
   text-align: center;
-}
-
-@media only screen and (min-width: 748px) {
-  .intropage {
-    width: 100%;
-    
-  }
 }
