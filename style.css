@@ -7,6 +7,7 @@ html, body {
 }
 
 body {
+  padding-top: 110px;
   background: no-repeat center linear-gradient(to bottom, #000000 0%, #333300 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -90,6 +91,25 @@ body {
 
 .secondproject {
   padding: 0 0 10px 0;
+}
+
+.contactportion {
+  background: linear-gradient(to bottom left, #003366 0%, #ffffff 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: 1px white solid;
+  border-bottom: 1px solid white;
+}
+
+.contactportion .row {
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+i {
+  
 }
 
 
